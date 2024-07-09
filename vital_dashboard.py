@@ -10,7 +10,7 @@ st.title(" :bar_chart: Vital Signs Dashboard")
 st.markdown('<style>div.block-container{padding-top:2rem;}</style>', unsafe_allow_html=True)
 
 #os.chdir(r"C:\\Users\\NISHANT\\Downloads\\decode_2024_prelim_prog\\")
-df=pd.read_excel(r"C:\\Users\\NISHANT\\Downloads\\decode_2024_prelim_prog\\decode_2024_prelim_prog\\Vital_Signs.xlsx")
+df=pd.read_excel(r"Vital_Signs.xlsx")
 
 ## Creating Date filter
 col1, col2 = st.columns((2))
